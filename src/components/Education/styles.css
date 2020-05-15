@@ -1,0 +1,19 @@
+.container-education {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -100px;
+}
+
+.education h1 {
+  font-size: 40px;
+}
+
+.education ul {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.education li {
+  padding-top: 10px;
+}

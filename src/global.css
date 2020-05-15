@@ -12,12 +12,12 @@ body {
   /* font: 400 14px Roboto, sans-serif; */
   font: 400 14px Montserrat, sans-serif;
   color: #343a40;
-  background: #f0f0f5;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
 small {
-  color: #838383
+  color: #838383;
 }
 
 .container {
@@ -28,8 +28,9 @@ small {
 .sidebar {
   position: fixed;
   width: 300px;
-  height: 100vh;
+  height: 100%;
   background: #3498db;
+  box-shadow: 5px 0px 7px #ccc;
 }
 
 .defaultColor {
@@ -48,19 +49,6 @@ small {
 
   width: 100%;
   height: 100vh;
-  background: #fff;
   padding: 100px;
 }
 
-.about h1{
-  font-size: 40px;
-}
-
-.about ul {
-  padding-top: 50px;
-  padding-left: 50px;
-}
-
-.about li {
-  padding-top: 10px;
-}

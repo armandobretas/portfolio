@@ -1,0 +1,18 @@
+.container-skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -100px;
+}
+
+.skills h1 {
+  font-size: 40px;
+}
+
+.tecnologies img {
+  padding-top: 50px;
+}
+
+.tecnologies img + img {
+    margin: 0 10px;
+}

@@ -1,0 +1,43 @@
+.container-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.about h1 {
+  font-size: 40px;
+}
+
+.about ul {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.about li {
+  padding-top: 10px;
+}
+
+.social {
+  display: flex;
+  padding-top: 50px;
+}
+
+.social button {
+  display: flex;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: #fff;
+  background: #3498db;
+  border: none;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: filter 0.8s;
+}
+
+.social button:hover {
+  filter: brightness(0.8);
+}
