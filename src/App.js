@@ -1,24 +1,66 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import "./global.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="sidebar">
+        <Sidebar />
+      </div>
+      <div className="main">
+        <div id="about" className="content about">
+          <h1>
+            <span className="defaultColor">ARMANDO</span> BRETAS
+          </h1>
+          <small>PARANÁ, BRAZIL</small>
+          <ul>
+            <li>
+              <p>
+                <a>Full Stack Developer</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a>Co-Founder of e-Infintiy</a>
+              </p>
+              <p>
+                <small>software and apps development company</small>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div id="experience" className="content">
+          <h1>Experience</h1>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+        </div>
+        <div id="education" className="content">
+          <h1>Education</h1>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+        </div>
+        <div id="skills" className="content">
+          <h1>Skills</h1>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+          <p>Tal tal tal</p>
+        </div>
+      </div>
     </div>
   );
 }

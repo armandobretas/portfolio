@@ -1,0 +1,33 @@
+.sidebar-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-content img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.sidebar-content a {
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.sidebar-content a:hover {
+  color: #343a40
+}
