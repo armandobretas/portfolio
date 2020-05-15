@@ -28,6 +28,14 @@ function App() {
                 <small>software and apps development company</small>
               </p>
             </li>
+            <li>
+              <p>
+                <a>Systems Development Analyst in Grupo Gazin</a>
+              </p>
+              <p>
+                <small>one of the largest retail companies in Brazil.</small>
+              </p>
+            </li>
           </ul>
         </div>
         <div id="experience" className="content">

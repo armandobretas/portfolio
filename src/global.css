@@ -16,6 +16,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+small {
+  color: #838383
+}
+
 .container {
   display: flex;
   align-content: space-between;
@@ -55,4 +59,8 @@ body {
 .about ul {
   padding-top: 50px;
   padding-left: 50px;
+}
+
+.about li {
+  padding-top: 10px;
 }
